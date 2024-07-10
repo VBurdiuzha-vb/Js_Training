@@ -5,6 +5,6 @@ class DocumentationTab{
     }
 }
 
-module.export = {
+module.exports = {
     DocumentationTab
 }

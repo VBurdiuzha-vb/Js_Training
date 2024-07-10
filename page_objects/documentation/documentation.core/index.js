@@ -1,5 +1,5 @@
 const {DocumentationTab} = require('./documentation')
 
-module.export = {
+module.exports = {
     DocumentationTab
 }

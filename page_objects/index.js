@@ -1,7 +1,7 @@
 const HomePage = require('./home')
 const DocumentationPage = require('./documentation')
 
-module.export = {
+module.exports = {
     HomePage,
     DocumentationPage
 }

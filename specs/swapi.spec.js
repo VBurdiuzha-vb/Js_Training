@@ -5,8 +5,8 @@ const expect = require('chai').expect
 const { HomePage, DocumentationPage } = require('../page_objects')
 
 describe('First suit', function(){
-    const docPage = new DocumentationPage()
     const homePage = new HomePage()
+    const docPage = new DocumentationPage()
 
     it('first test', async function(){
         const searchValue = 'people/1/'

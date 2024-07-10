@@ -17,6 +17,6 @@ class DocumentationPage{
 
 }
 
-module.export = {
+module.exports = {
     DocumentationPage
 }
