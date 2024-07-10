@@ -3,8 +3,8 @@ const {waitForElementVisible} = require('../commons')
 const { browser } = require('protractor')
 const expect = require('chai').expect
 
-class HomePage{
-    constructor(){
+class HomePage {
+    constructor() {
         this.request = new RequestRegion()
     }
 
@@ -22,6 +22,4 @@ class HomePage{
     }
 }
 
-module.exports = {
-    HomePage
-}
+module.exports = HomePage;
