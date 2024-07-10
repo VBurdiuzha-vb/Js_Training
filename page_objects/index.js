@@ -1,6 +1,7 @@
-const {HomePage} = require('./home')
-const {DocumentationPage} = require('./documentation')
+const HomePage = require('./home')
+const DocumentationPage = require('./documentation')
 
 module.export = {
-    HomePage
+    HomePage,
+    DocumentationPage
 }

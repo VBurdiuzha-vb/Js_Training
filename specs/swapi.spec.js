@@ -1,12 +1,12 @@
-// const { browser } = require('protractor')
+const { browser } = require('protractor')
 // const EC = protractor.ExpectedConditions
 
 const expect = require('chai').expect
 const { HomePage, DocumentationPage } = require('../page_objects')
 
 describe('First suit', function(){
-    const homePage = new HomePage()
     const docPage = new DocumentationPage()
+    const homePage = new HomePage()
 
     it('first test', async function(){
         const searchValue = 'people/1/'
